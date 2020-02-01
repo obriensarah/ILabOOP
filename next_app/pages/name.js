@@ -20,3 +20,10 @@ export default function Name() {
  	<Layout />
  );
 }
+
+if(typeof window !== 'undefined') { 
+	document.getElementById("esc").addEventListener("click", function(){ 
+	   window.close()
+       // window.location.replace('google.com');
+   })
+   }

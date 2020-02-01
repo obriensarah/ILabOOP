@@ -1,5 +1,6 @@
 import NextButtonLayout from './NextButtonLayout'
 import PrevButtonLayout from './PrevButtonLayout'
+import EscButtonLayout from './EscButtonLayout'
 
 const layoutStyle = {
   textAlign:'center'
@@ -10,6 +11,7 @@ const Layout = props => (
     {props.children}
     <PrevButtonLayout />
     <NextButtonLayout />
+    <EscButtonLayout />
   </div>
 );
 

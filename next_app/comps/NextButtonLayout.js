@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const layoutStyle = {
   backgroundColor: 'gray',
     border: 'none',
@@ -14,7 +16,9 @@ const layoutStyle = {
 
 const Layout = props => (
   <div style={{display:'inline-block'}}>
-    <button style={layoutStyle}>Next</button>
+    <Link href = "/nextq">
+      <button style={layoutStyle}>Next</button>
+    </Link>
   </div>
 );
 
