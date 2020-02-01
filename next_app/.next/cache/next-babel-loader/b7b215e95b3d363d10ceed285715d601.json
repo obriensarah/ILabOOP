@@ -1,0 +1,1 @@
+{"ast":null,"code":"require('typeface-montserrat');","map":{"version":3,"sources":["/Users/sarahobrien/Desktop/ILabOOP/next_app/pages/_app.js"],"names":["require"],"mappings":"AAAAA,OAAO,CAAC,qBAAD,CAAP","sourcesContent":["require('typeface-montserrat');"]},"metadata":{},"sourceType":"script"}
